@@ -1,0 +1,620 @@
+WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.69 parent_cmdline='(unknown)'
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+n: Session storage: /Users/sychong/.hermes/sessions
+2026-06-11 23:30:01,300 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-11 23:30:01,301 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-11 23:30:01,323 INFO gateway.run: Connecting to discord...
+2026-06-11 23:30:01,328 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-11 23:30:02,365 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-11 23:30:02,483 INFO gateway.run: Received SIGTERM as a planned --replace takeover — exiting cleanly
+2026-06-11 23:30:02,483 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.69 parent_cmdline='(unknown)'
+2026-06-11 23:30:02,506 INFO gateway.run: Stopping gateway...
+2026-06-11 23:30:02,508 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-06-11 23:30:02,514 INFO gateway.run: Shutdown phase: drain done at +0.01s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-11 23:30:02,514 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.01s
+2026-06-11 23:30:02,793 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.28s
+2026-06-11 23:30:02,796 INFO gateway.run: Shutdown phase: SessionDB close done at +0.29s
+2026-06-11 23:30:02,798 INFO gateway.run: Gateway stopped (total teardown 0.29s)
+2026-06-11 23:30:06,045 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Pierre#8574
+2026-06-11 23:30:06,054 INFO gateway.run: ✓ discord connected
+2026-06-11 23:30:06,056 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-11 23:30:06,065 INFO gateway.run: Channel directory built: 18 target(s)
+2026-06-11 23:30:07,067 INFO gateway.run: Press Ctrl+C to stop
+2026-06-11 23:30:07,491 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-11 23:30:07,504 INFO gateway.run: Cron ticker stopped
+2026-06-11 23:30:09,726 INFO gateway.run: Starting Hermes Gateway...
+2026-06-11 23:30:09,726 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-11 23:30:09,728 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-11 23:30:09,729 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-11 23:30:09,737 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-11 23:30:09,739 INFO gateway.run: Connecting to discord...
+2026-06-11 23:30:09,742 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-11 23:30:09,935 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-11 23:30:13,750 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Pierre#8574
+2026-06-11 23:30:13,758 INFO gateway.run: ✓ discord connected
+2026-06-11 23:30:13,760 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-11 23:30:13,763 INFO gateway.run: Channel directory built: 18 target(s)
+2026-06-11 23:30:14,764 INFO gateway.run: Press Ctrl+C to stop
+2026-06-11 23:30:14,821 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-11 23:30:19,773 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-11 23:38:25,861 INFO hermes_plugins.discord_platform.adapter: [Discord] Safely reconciled 50 slash command(s): unchanged=0 updated=18 recreated=1 created=31 deleted=46
+2026-06-11 23:49:20,502 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-11 23:49:20,502 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.28 parent_cmdline='(unknown)'
+2026-06-11 23:49:20,511 INFO gateway.run: Stopping gateway...
+2026-06-11 23:49:21,028 INFO gateway.run: Sent shutdown notification to home channel discord:1510545309238038588
+2026-06-11 23:49:21,029 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.52s
+2026-06-11 23:49:21,032 INFO gateway.run: Shutdown phase: drain done at +0.52s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-11 23:49:21,037 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-11 23:49:21,038 INFO gateway.run: ✓ discord disconnected (0.00s)
+2026-06-11 23:49:21,038 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.53s
+2026-06-11 23:49:21,092 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.58s
+2026-06-11 23:49:21,094 INFO gateway.run: Shutdown phase: SessionDB close done at +0.58s
+2026-06-11 23:49:21,095 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-11 23:49:21,096 INFO gateway.run: Gateway stopped (total teardown 0.58s)
+2026-06-11 23:49:21,097 INFO gateway.run: Cron ticker stopped
+2026-06-11 23:49:21,097 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-06-11 23:49:23,800 INFO gateway.run: Starting Hermes Gateway...
+2026-06-11 23:49:23,800 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-11 23:49:23,801 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-11 23:49:23,801 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-11 23:49:23,810 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-11 23:49:23,811 INFO gateway.run: Connecting to discord...
+2026-06-11 23:49:23,813 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-11 23:49:23,981 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-11 23:49:27,801 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-11 23:49:27,813 INFO gateway.run: ✓ discord connected
+2026-06-11 23:49:27,815 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-11 23:49:27,819 INFO gateway.run: Channel directory built: 18 target(s)
+2026-06-11 23:49:28,822 INFO gateway.run: Press Ctrl+C to stop
+2026-06-11 23:49:28,875 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-11 23:49:33,843 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-11 23:57:14,724 INFO hermes_plugins.discord_platform.adapter: [Discord] Safely reconciled 50 slash command(s): unchanged=0 updated=19 recreated=0 created=31 deleted=43
+2026-06-12 00:06:52,669 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:thread:1514662207106056405:1514662207106056405 (16 chars)
+2026-06-12 00:06:53,487 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1514662207106056405 msg='what can you do?'
+2026-06-12 00:07:04,231 INFO gateway.run: response ready: platform=discord chat=1514662207106056405 time=10.7s api_calls=1 response=1817 chars
+2026-06-12 00:07:04,274 INFO gateway.platforms.base: [Discord] Sending response (1817 chars) to 1514662207106056405
+2026-06-12 00:13:05,216 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 00:13:05,216 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=4.66 parent_cmdline='(unknown)'
+2026-06-12 00:13:05,229 INFO gateway.run: Stopping gateway...
+2026-06-12 00:13:05,619 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 00:13:05,620 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.39s
+2026-06-12 00:13:05,623 INFO gateway.run: Shutdown phase: drain done at +0.39s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 00:13:05,627 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 00:13:05,627 INFO gateway.run: ✓ discord disconnected (0.00s)
+2026-06-12 00:13:05,628 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.40s
+2026-06-12 00:13:05,629 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.40s
+2026-06-12 00:13:05,631 INFO gateway.run: Shutdown phase: SessionDB close done at +0.40s
+2026-06-12 00:13:05,632 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 00:13:05,634 INFO gateway.run: Gateway stopped (total teardown 0.40s)
+2026-06-12 00:13:05,635 INFO gateway.run: Cron ticker stopped
+2026-06-12 00:13:05,635 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-06-12 00:13:09,081 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 00:13:09,082 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 00:13:09,083 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 00:13:09,083 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 00:13:09,093 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 00:13:09,094 INFO gateway.run: Connecting to discord...
+2026-06-12 00:13:09,097 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 00:13:09,284 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 00:13:12,983 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 00:13:12,985 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 00:13:12,991 INFO gateway.run: ✓ discord connected
+2026-06-12 00:13:12,994 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 00:13:13,001 INFO gateway.run: Channel directory built: 19 target(s)
+2026-06-12 00:13:14,004 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 00:13:14,055 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 00:13:19,020 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 00:24:08,835 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 00:24:08,836 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=5.02 parent_cmdline='(unknown)'
+2026-06-12 00:24:08,844 INFO gateway.run: Stopping gateway...
+2026-06-12 00:24:09,324 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 00:24:09,324 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.48s
+2026-06-12 00:24:09,329 INFO gateway.run: Shutdown phase: drain done at +0.48s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 00:24:09,331 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 00:24:09,332 INFO gateway.run: ✓ discord disconnected (0.00s)
+2026-06-12 00:24:09,332 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.49s
+2026-06-12 00:24:09,479 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.63s
+2026-06-12 00:24:09,480 INFO gateway.run: Shutdown phase: SessionDB close done at +0.63s
+2026-06-12 00:24:09,481 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 00:24:09,484 INFO gateway.run: Gateway stopped (total teardown 0.64s)
+2026-06-12 00:24:09,485 INFO gateway.run: Cron ticker stopped
+2026-06-12 00:24:09,485 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-06-12 00:24:12,938 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 00:24:12,938 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 00:24:12,939 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 00:24:12,940 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 00:24:12,950 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 00:24:12,952 INFO gateway.run: Connecting to discord...
+2026-06-12 00:24:12,954 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 00:24:13,125 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 00:24:16,607 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 00:24:16,611 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 00:24:16,616 INFO gateway.run: ✓ discord connected
+2026-06-12 00:24:16,619 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 00:24:16,629 INFO gateway.run: Channel directory built: 19 target(s)
+2026-06-12 00:24:17,632 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 00:24:17,690 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 00:24:22,650 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 00:24:58,027 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:thread:1514666759893029026:1514666759893029026 (18 chars)
+2026-06-12 00:24:58,733 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1514666759893029026 msg='how are you doing?'
+2026-06-12 00:26:15,149 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_3f2ae030db4c_flex.1526010.AI_PA_Trades.20260610.20260610.xml
+2026-06-12 00:26:15,808 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1514667084372508832 msg="here is June 10's trade file"
+2026-06-12 00:26:28,092 INFO gateway.run: response ready: platform=discord chat=1514667084372508832 time=12.3s api_calls=1 response=193 chars
+2026-06-12 00:26:28,146 INFO gateway.platforms.base: [Discord] Sending response (193 chars) to 1514667084372508832
+2026-06-12 00:27:22,964 INFO gateway.run: response ready: platform=discord chat=1514666759893029026 time=144.2s api_calls=4 response=193 chars
+2026-06-12 00:27:22,988 INFO gateway.platforms.base: [Discord] Sending response (193 chars) to 1514666759893029026
+2026-06-12 00:29:34,176 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 00:29:34,176 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.75 parent_cmdline='(unknown)'
+2026-06-12 00:29:34,185 INFO gateway.run: Stopping gateway...
+2026-06-12 00:29:34,630 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 00:29:34,631 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.44s
+2026-06-12 00:29:34,636 INFO gateway.run: Shutdown phase: drain done at +0.45s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 00:29:34,640 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 00:29:34,640 INFO gateway.run: ✓ discord disconnected (0.00s)
+2026-06-12 00:29:34,640 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.45s
+2026-06-12 00:29:34,642 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.46s
+2026-06-12 00:29:34,646 INFO gateway.run: Shutdown phase: SessionDB close done at +0.46s
+2026-06-12 00:29:34,647 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 00:29:34,649 INFO gateway.run: Gateway stopped (total teardown 0.46s)
+2026-06-12 00:29:34,649 INFO gateway.run: Cron ticker stopped
+2026-06-12 00:29:34,650 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-06-12 00:29:37,473 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 00:29:37,474 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 00:29:37,475 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 00:29:37,476 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 00:29:37,486 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 00:29:37,487 INFO gateway.run: Connecting to discord...
+2026-06-12 00:29:37,489 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 00:29:37,671 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 00:29:41,237 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 00:29:41,240 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 00:29:41,246 INFO gateway.run: ✓ discord connected
+2026-06-12 00:29:41,250 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 00:29:41,259 INFO gateway.run: Channel directory built: 21 target(s)
+2026-06-12 00:29:42,263 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 00:29:42,314 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 00:29:47,280 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 00:30:51,435 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (47 chars)
+2026-06-12 00:30:52,112 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='hi.kara, can you respond without a mention now?'
+2026-06-12 00:30:58,209 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=6.1s api_calls=1 response=341 chars
+2026-06-12 00:30:58,242 INFO gateway.platforms.base: [Discord] Sending response (341 chars) to 1510545376346902538
+2026-06-12 00:31:22,388 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_d08b51cedf0d_flex.1526010.AI_PA_Trades.20260610.20260610.xml
+2026-06-12 00:31:23,110 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 00:31:33,235 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=10.1s api_calls=1 response=193 chars
+2026-06-12 00:31:33,252 INFO gateway.platforms.base: [Discord] Sending response (193 chars) to 1510545376346902538
+2026-06-12 01:35:50,279 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:discord:group:1510545376346902538:360061129784950786 (idle=3857s)
+2026-06-12 01:35:50,282 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-12 09:44:00,069 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_a73d35fa6606_flex.1526010.AI_PA_Trades.20260611.20260611.xml
+2026-06-12 09:44:03,069 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 09:45:18,380 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=75.3s api_calls=3 response=193 chars
+2026-06-12 09:45:18,386 INFO gateway.platforms.base: [Discord] Sending response (193 chars) to 1510545376346902538
+2026-06-12 10:46:50,897 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:discord:group:1510545376346902538:360061129784950786 (idle=3693s)
+2026-06-12 10:46:50,898 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-12 13:01:54,978 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 13:01:54,979 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.87 parent_cmdline='(unknown)'
+2026-06-12 13:01:55,002 INFO gateway.run: Stopping gateway...
+2026-06-12 13:01:55,481 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 13:01:55,481 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.48s
+2026-06-12 13:01:55,490 INFO gateway.run: Shutdown phase: drain done at +0.49s (drain took 0.01s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 13:01:55,497 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 13:01:55,497 INFO gateway.run: ✓ discord disconnected (0.01s)
+2026-06-12 13:01:55,498 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.50s
+2026-06-12 13:01:55,501 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.50s
+2026-06-12 13:01:55,525 INFO gateway.run: Shutdown phase: SessionDB close done at +0.52s
+2026-06-12 13:01:55,526 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 13:01:55,528 INFO gateway.run: Gateway stopped (total teardown 0.53s)
+2026-06-12 13:01:55,529 INFO gateway.run: Cron ticker stopped
+2026-06-12 13:01:55,530 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-06-12 13:02:00,267 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 13:02:00,268 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 13:02:00,269 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 13:02:00,270 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 13:02:00,286 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 13:02:00,288 INFO gateway.run: Connecting to discord...
+2026-06-12 13:02:00,292 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 13:02:00,732 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 13:02:04,211 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 13:02:04,218 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 13:02:04,224 INFO gateway.run: ✓ discord connected
+2026-06-12 13:02:04,228 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 13:02:04,242 INFO gateway.run: Channel directory built: 22 target(s)
+2026-06-12 13:02:05,245 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 13:02:05,340 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 13:02:10,255 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 13:05:56,262 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 13:05:56,263 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.23 parent_cmdline='(unknown)'
+2026-06-12 13:05:56,275 INFO gateway.run: Stopping gateway...
+2026-06-12 13:05:56,664 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 13:05:56,664 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.39s
+2026-06-12 13:05:56,668 INFO gateway.run: Shutdown phase: drain done at +0.39s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 13:05:56,671 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 13:05:56,671 INFO gateway.run: ✓ discord disconnected (0.00s)
+2026-06-12 13:05:56,672 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.40s
+2026-06-12 13:05:56,833 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.56s
+2026-06-12 13:05:56,835 INFO gateway.run: Shutdown phase: SessionDB close done at +0.56s
+2026-06-12 13:05:56,836 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 13:05:56,838 INFO gateway.run: Gateway stopped (total teardown 0.56s)
+2026-06-12 13:05:56,839 INFO gateway.run: Cron ticker stopped
+2026-06-12 13:05:56,840 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-06-12 13:06:00,011 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 13:06:00,012 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 13:06:00,013 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 13:06:00,013 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 13:06:00,026 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 13:06:00,028 INFO gateway.run: Connecting to discord...
+2026-06-12 13:06:00,031 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 13:06:00,242 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 13:06:03,861 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 13:06:03,863 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 13:06:03,869 INFO gateway.run: ✓ discord connected
+2026-06-12 13:06:03,872 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 13:06:03,880 INFO gateway.run: Channel directory built: 22 target(s)
+2026-06-12 13:06:04,884 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 13:06:04,941 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 13:06:09,908 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 13:10:49,797 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_5c80db4949b6_flex.1526010.AI_PA_Trades.20260610.20260610.xml
+2026-06-12 13:10:50,608 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='Retry processing this file'
+2026-06-12 13:11:06,300 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=15.7s api_calls=2 response=193 chars
+2026-06-12 13:11:06,326 INFO gateway.platforms.base: [Discord] Sending response (193 chars) to 1510545376346902538
+2026-06-12 13:27:54,995 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 13:27:54,997 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=16.26 parent_cmdline='(unknown)'
+2026-06-12 13:27:55,020 INFO gateway.run: Stopping gateway...
+2026-06-12 13:27:55,448 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 13:27:55,448 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.43s
+2026-06-12 13:27:55,454 INFO gateway.run: Shutdown phase: drain done at +0.43s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 13:27:55,460 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 13:27:55,462 INFO gateway.run: ✓ discord disconnected (0.01s)
+2026-06-12 13:27:55,462 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.44s
+2026-06-12 13:27:55,465 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.44s
+2026-06-12 13:27:55,475 INFO gateway.run: Shutdown phase: SessionDB close done at +0.45s
+2026-06-12 13:27:55,477 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 13:27:55,479 INFO gateway.run: Gateway stopped (total teardown 0.46s)
+2026-06-12 13:27:55,480 INFO gateway.run: Cron ticker stopped
+2026-06-12 13:27:55,481 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+⚠️  API call failed (attempt 1/2): CodeAssistError [HTTP 429]
+   🔌 Provider: google-gemini-cli  Model: gemini-3-flash-preview
+   🌐 Endpoint: cloudcode-pa://google
+   📝 Error: HTTP 429: Gemini quota exhausted (You have exhausted your capacity on this model. Your quota will reset after 56s.). Check /gquota for remaining daily requests.
+   ⏱️  Elapsed: 2.13s  Context: 9 msgs, ~9,768 tokens
+⏱️ Rate limited. Waiting 2.2s (attempt 2/2)...
+⚠️  API call failed (attempt 2/2): CodeAssistError [HTTP 429]
+   🔌 Provider: google-gemini-cli  Model: gemini-3-flash-preview
+   🌐 Endpoint: cloudcode-pa://google
+   📝 Error: HTTP 429: Gemini quota exhausted (You have exhausted your capacity on this model. Your quota will reset after 51s.). Check /gquota for remaining daily requests.
+   ⏱️  Elapsed: 5.54s  Context: 9 msgs, ~9,768 tokens
+❌ Rate limited after 2 retries — HTTP 429: Gemini quota exhausted (You have exhausted your capacity on this model. Your quota will reset after 51s.). Check /gquota for remaining daily requests.
+   💀 Final error: HTTP 429: Gemini quota exhausted (You have exhausted your capacity on this model. Your quota will reset after 51s.). Check /gquota for remaining daily requests.
+🧾 Request debug dump written to: /Users/sychong/.hermes/sessions/request_dump_20260612_003052_04f2a50d_20260612_131106_243789.json
+2026-06-12 13:28:02,236 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 13:28:02,237 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 13:28:02,238 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 13:28:02,240 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 13:28:02,261 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 13:28:02,264 INFO gateway.run: Connecting to discord...
+2026-06-12 13:28:02,276 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 13:28:02,827 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 13:28:06,587 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 13:28:06,592 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 13:28:06,603 INFO gateway.run: ✓ discord connected
+2026-06-12 13:28:06,615 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 13:28:06,639 INFO gateway.run: Channel directory built: 22 target(s)
+2026-06-12 13:28:07,643 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 13:28:07,797 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 13:28:12,694 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 13:29:14,037 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_f6ca17c3275d_flex.1526010.AI_PA_Trades.20260610.20260610.xml
+2026-06-12 13:29:14,905 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='Kara, try processing this file now'
+2026-06-12 13:30:27,954 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=73.0s api_calls=2 response=187 chars
+2026-06-12 13:30:28,020 INFO gateway.platforms.base: [Discord] Sending response (187 chars) to 1510545376346902538
+2026-06-12 13:37:51,661 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (16 chars)
+2026-06-12 13:37:52,414 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='please try again'
+2026-06-12 13:37:59,375 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=7.0s api_calls=1 response=187 chars
+2026-06-12 13:37:59,410 INFO gateway.platforms.base: [Discord] Sending response (187 chars) to 1510545376346902538
+2026-06-12 13:43:01,859 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 13:43:01,859 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=7.17 parent_cmdline='(unknown)'
+2026-06-12 13:43:01,886 INFO gateway.run: Stopping gateway...
+2026-06-12 13:43:02,528 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 13:43:02,529 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.64s
+2026-06-12 13:43:02,645 INFO gateway.run: Shutdown phase: drain done at +0.75s (drain took 0.07s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 13:43:02,705 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 13:43:02,708 INFO gateway.run: ✓ discord disconnected (0.06s)
+2026-06-12 13:43:02,714 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.82s
+2026-06-12 13:43:02,719 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.83s
+2026-06-12 13:43:02,731 INFO gateway.run: Shutdown phase: SessionDB close done at +0.84s
+2026-06-12 13:43:02,734 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 13:43:02,740 INFO gateway.run: Gateway stopped (total teardown 0.85s)
+2026-06-12 13:43:02,742 INFO gateway.run: Cron ticker stopped
+2026-06-12 13:43:02,749 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+⚠️  API call failed (attempt 1/2): GeminiAPIError [HTTP 503]
+   🔌 Provider: gemini  Model: gemini-3-flash-preview
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   ⏱️  Elapsed: 4.36s  Context: 7 msgs, ~9,679 tokens
+⏳ Retrying in 2.4s (attempt 1/2)...
+⚠️  API call failed (attempt 1/2): GeminiAPIError [HTTP 503]
+   🔌 Provider: gemini  Model: gemini-3-flash-preview
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   ⏱️  Elapsed: 1.18s  Context: 9 msgs, ~9,874 tokens
+⏳ Retrying in 2.1s (attempt 1/2)...
+⚠️  API call failed (attempt 2/2): GeminiAPIError [HTTP 503]
+   🔌 Provider: gemini  Model: gemini-3-flash-preview
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   ⏱️  Elapsed: 5.23s  Context: 9 msgs, ~9,874 tokens
+❌ API failed after 2 retries — HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   💀 Final error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+🧾 Request debug dump written to: /Users/sychong/.hermes/sessions/request_dump_20260612_003052_04f2a50d_20260612_133027_858843.json
+⚠️  API call failed (attempt 1/2): GeminiAPIError [HTTP 503]
+   🔌 Provider: gemini  Model: gemini-3-flash-preview
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   ⏱️  Elapsed: 1.59s  Context: 7 msgs, ~9,684 tokens
+⏳ Retrying in 2.5s (attempt 1/2)...
+⚠️  API call failed (attempt 2/2): GeminiAPIError [HTTP 503]
+   🔌 Provider: gemini  Model: gemini-3-flash-preview
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   ⏱️  Elapsed: 5.59s  Context: 7 msgs, ~9,684 tokens
+❌ API failed after 2 retries — HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   💀 Final error: HTTP 503: Gemini HTTP 503 (UNAVAILABLE): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+🧾 Request debug dump written to: /Users/sychong/.hermes/sessions/request_dump_20260612_003052_04f2a50d_20260612_133759_348047.json
+2026-06-12 13:43:09,766 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 13:43:09,766 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 13:43:09,768 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 13:43:09,769 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 13:43:09,780 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 13:43:09,783 INFO gateway.run: Connecting to discord...
+2026-06-12 13:43:09,788 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 13:43:10,317 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 71 skill(s) via autocomplete
+2026-06-12 13:43:13,755 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 13:43:13,759 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 13:43:13,768 INFO gateway.run: ✓ discord connected
+2026-06-12 13:43:13,776 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 13:43:13,799 INFO gateway.run: Channel directory built: 22 target(s)
+2026-06-12 13:43:14,805 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 13:43:14,976 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 13:43:19,858 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 13:43:53,037 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (16 chars)
+2026-06-12 13:43:53,975 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='please try again'
+2026-06-12 13:45:34,548 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=100.6s api_calls=9 response=543 chars
+2026-06-12 13:45:34,572 INFO gateway.platforms.base: [Discord] Sending response (543 chars) to 1510545376346902538
+2026-06-12 13:52:17,219 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_4e6e452c3f25_flex.1526010.AI_PA_Trades.20260610.20260610.xml
+2026-06-12 13:52:18,192 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='Kara, please process this trading file'
+2026-06-12 13:59:04,306 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=406.1s api_calls=9 response=4123 chars
+2026-06-12 13:59:04,441 INFO gateway.platforms.base: [Discord] Sending response (4123 chars) to 1510545376346902538
+2026-06-12 14:24:24,385 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (71 chars)
+2026-06-12 14:24:25,109 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='list everythin g currently in active_positions.md and open_positions.md'
+2026-06-12 14:24:44,109 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=19.0s api_calls=4 response=1075 chars
+2026-06-12 14:24:44,153 INFO gateway.platforms.base: [Discord] Sending response (1075 chars) to 1510545376346902538
+2026-06-12 15:14:06,854 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (60 chars)
+2026-06-12 15:14:08,021 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg="summarize today's closed trades and current active positions"
+2026-06-12 15:14:49,394 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=41.4s api_calls=9 response=1970 chars
+2026-06-12 15:14:49,515 INFO gateway.platforms.base: [Discord] Sending response (1970 chars) to 1510545376346902538
+2026-06-12 15:18:52,784 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (60 chars)
+2026-06-12 15:18:53,460 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg="summarize today's closed trades and current active positions"
+2026-06-12 15:19:02,518 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=9.1s api_calls=1 response=1625 chars
+2026-06-12 15:19:02,580 INFO gateway.platforms.base: [Discord] Sending response (1625 chars) to 1510545376346902538
+2026-06-12 15:32:05,560 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (135 chars)
+2026-06-12 15:32:06,656 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='use read_file to open ~/.hermes/workspace-kara/options/active_positions.md  righ'
+2026-06-12 15:32:18,468 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=11.8s api_calls=2 response=882 chars
+2026-06-12 15:32:18,591 INFO gateway.platforms.base: [Discord] Sending response (882 chars) to 1510545376346902538
+2026-06-12 15:41:20,770 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (121 chars)
+2026-06-12 15:41:21,517 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='what environment variable, config file, or setting defines your allowed  workspa'
+2026-06-12 15:42:01,107 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=39.6s api_calls=7 response=2497 chars
+2026-06-12 15:42:01,119 INFO gateway.platforms.base: [Discord] Sending response (2497 chars) to 1510545376346902538
+2026-06-12 15:48:54,530 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 15:48:54,530 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=10.43 parent_cmdline='(unknown)'
+2026-06-12 15:48:54,560 INFO gateway.run: Stopping gateway...
+2026-06-12 15:48:54,995 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 15:48:54,995 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.43s
+2026-06-12 15:48:55,004 INFO gateway.run: Shutdown phase: drain done at +0.44s (drain took 0.01s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 15:48:55,015 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 15:48:55,015 INFO gateway.run: ✓ discord disconnected (0.01s)
+2026-06-12 15:48:55,016 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.45s
+2026-06-12 15:48:55,019 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.46s
+2026-06-12 15:48:55,025 INFO gateway.run: Shutdown phase: SessionDB close done at +0.46s
+2026-06-12 15:48:55,034 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 15:48:55,039 INFO gateway.run: Gateway stopped (total teardown 0.48s)
+2026-06-12 15:48:55,042 INFO gateway.run: Cron ticker stopped
+2026-06-12 15:48:55,077 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+⚠️  API call failed (attempt 1/2): GeminiAPIError [HTTP 429]
+   🔌 Provider: gemini  Model: gemini-3.5-flash
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 429: Gemini HTTP 429 (RESOURCE_EXHAUSTED): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.5-flash
+Please retry in 31.259285634s.
+
+Your Google API key is on the free tier (<= 250 request
+   ⏱️  Elapsed: 2.45s  Context: 23 msgs, ~27,716 tokens
+⏱️ Rate limited. Waiting 2.8s (attempt 2/2)...
+⚠️  API call failed (attempt 2/2): GeminiAPIError [HTTP 429]
+   🔌 Provider: gemini  Model: gemini-3.5-flash
+   🌐 Endpoint: https://generativelanguage.googleapis.com/v1beta
+   📝 Error: HTTP 429: Gemini HTTP 429 (RESOURCE_EXHAUSTED): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.5-flash
+Please retry in 25.708612923s.
+
+Your Google API key is on the free tier (<= 250 request
+   ⏱️  Elapsed: 5.85s  Context: 23 msgs, ~27,716 tokens
+❌ Rate limited after 2 retries — HTTP 429: Gemini HTTP 429 (RESOURCE_EXHAUSTED): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.5-flash
+Please retry in 25.708612923s.
+
+Your Google API key is on the free tier (<= 250 request
+   💀 Final error: HTTP 429: Gemini HTTP 429 (RESOURCE_EXHAUSTED): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.5-flash
+Please retry in 25.708612923s.
+
+Your Google API key is on the free tier (<= 250 request
+🧾 Request debug dump written to: /Users/sychong/.hermes/sessions/request_dump_20260612_003052_04f2a50d_20260612_134534_346911.json
+  💾 Self-improvement review: Skill 'trading-analytics' created.
+  💾 Self-improvement review: User profile updated
+  💾 Self-improvement review: User profile updated
+2026-06-12 15:49:02,754 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 15:49:02,755 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 15:49:02,759 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 15:49:02,776 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 15:49:02,825 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 15:49:02,834 INFO gateway.run: Connecting to discord...
+2026-06-12 15:49:02,843 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 15:49:03,495 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 72 skill(s) via autocomplete
+2026-06-12 15:49:07,355 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 15:49:07,362 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 15:49:07,372 INFO gateway.run: ✓ discord connected
+2026-06-12 15:49:07,384 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 15:49:07,424 INFO gateway.run: Channel directory built: 22 target(s)
+2026-06-12 15:49:08,429 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 15:49:08,606 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 15:49:13,455 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 15:50:00,419 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (135 chars)
+2026-06-12 15:50:01,671 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='use read_file to open ~/.hermes/workspace-kara/options/active_positions.md  righ'
+2026-06-12 15:50:20,821 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=19.1s api_calls=2 response=935 chars
+2026-06-12 15:50:20,877 INFO gateway.platforms.base: [Discord] Sending response (935 chars) to 1510545376346902538
+2026-06-12 16:03:10,128 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (135 chars)
+2026-06-12 16:03:11,123 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='use read_file to open ~/.hermes/workspace-kara/options/active_positions.md  righ'
+2026-06-12 16:03:23,955 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=12.8s api_calls=2 response=1359 chars
+2026-06-12 16:03:23,966 INFO gateway.platforms.base: [Discord] Sending response (1359 chars) to 1510545376346902538
+2026-06-12 16:09:47,161 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-12 16:09:47,162 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=33.46 parent_cmdline='(unknown)'
+2026-06-12 16:09:47,411 INFO gateway.run: Stopping gateway...
+2026-06-12 16:09:48,493 INFO gateway.run: Sent shutdown notification to home channel discord:1510545376346902538
+2026-06-12 16:09:48,495 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.07s
+2026-06-12 16:09:48,505 INFO gateway.run: Shutdown phase: drain done at +1.08s (drain took 0.01s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-12 16:09:48,526 INFO hermes_plugins.discord_platform.adapter: [Discord] Disconnected
+2026-06-12 16:09:48,527 INFO gateway.run: ✓ discord disconnected (0.02s)
+2026-06-12 16:09:48,528 INFO gateway.run: Shutdown phase: all adapters disconnected at +1.10s
+2026-06-12 16:09:48,531 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +1.11s
+2026-06-12 16:09:48,540 INFO gateway.run: Shutdown phase: SessionDB close done at +1.12s
+2026-06-12 16:09:48,543 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-06-12 16:09:48,547 INFO gateway.run: Gateway stopped (total teardown 1.12s)
+2026-06-12 16:09:48,548 INFO gateway.run: Cron ticker stopped
+2026-06-12 16:09:48,552 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-06-12 16:10:13,421 INFO gateway.run: Starting Hermes Gateway...
+2026-06-12 16:10:13,424 INFO gateway.run: Session storage: /Users/sychong/.hermes/sessions
+2026-06-12 16:10:13,426 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-12 16:10:13,427 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-12 16:10:13,442 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-12 16:10:13,444 INFO gateway.run: Connecting to discord...
+2026-06-12 16:10:13,447 WARNING hermes_plugins.discord_platform.adapter: Opus codec not found — voice channel playback disabled
+2026-06-12 16:10:14,753 INFO hermes_plugins.discord_platform.adapter: [Discord] Registered /skill command with 72 skill(s) via autocomplete
+2026-06-12 16:10:19,099 INFO hermes_plugins.discord_platform.adapter: [Discord] Connected as Kara#9115
+2026-06-12 16:10:19,116 INFO hermes_plugins.discord_platform.adapter: [Discord] Skipping Discord slash command sync: same slash-command fingerprint already synced
+2026-06-12 16:10:19,192 INFO gateway.run: ✓ discord connected
+2026-06-12 16:10:19,196 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-12 16:10:19,213 INFO gateway.run: Channel directory built: 22 target(s)
+2026-06-12 16:10:20,217 INFO gateway.run: Press Ctrl+C to stop
+2026-06-12 16:10:20,476 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-12 16:10:20,652 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (239 chars)
+2026-06-12 16:10:21,931 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='if you see SE legs matching BUY 96C + SELL 99C + BUY 84P, expiry 2026-07-02,  an'
+2026-06-12 16:10:33,200 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-12 16:10:53,895 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=32.0s api_calls=2 response=2322 chars
+2026-06-12 16:10:54,233 INFO gateway.platforms.base: [Discord] Sending response (2322 chars) to 1510545376346902538
+2026-06-12 16:28:20,292 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_45d9e6e32ded_flex.1526010.AI_PA_Trades.20260601.20260601.xml
+2026-06-12 16:28:21,193 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='Process this file. Before classifying any options legs, check active_positions.m'
+2026-06-12 16:29:24,047 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=62.9s api_calls=9 response=4933 chars
+2026-06-12 16:29:24,065 INFO gateway.platforms.base: [Discord] Sending response (4933 chars) to 1510545376346902538
+2026-06-12 16:31:41,871 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (101 chars)
+2026-06-12 16:31:42,649 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg="you can remove the SE custom structure from active_positions.md, as it's already"
+2026-06-12 16:31:58,155 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=15.5s api_calls=3 response=1650 chars
+2026-06-12 16:31:58,206 INFO gateway.platforms.base: [Discord] Sending response (1650 chars) to 1510545376346902538
+2026-06-12 16:36:28,110 INFO hermes_plugins.discord_platform.adapter: [Discord] Flushing text batch agent:main:discord:group:1510545376346902538:360061129784950786 (60 chars)
+2026-06-12 16:36:28,787 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='and also the NOW position as it was an old options position.'
+2026-06-12 16:36:46,826 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=18.0s api_calls=4 response=1051 chars
+2026-06-12 16:36:47,107 INFO gateway.platforms.base: [Discord] Sending response (1051 chars) to 1510545376346902538
+2026-06-12 16:41:29,075 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_7d9c619a2d1a_flex.1526010.AI_PA_Trades.20260602.20260602.xml
+2026-06-12 16:41:29,755 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 16:41:56,403 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=26.6s api_calls=6 response=2692 chars
+2026-06-12 16:41:56,479 INFO gateway.platforms.base: [Discord] Sending response (2692 chars) to 1510545376346902538
+2026-06-12 16:56:27,229 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_f911b0e31016_flex.1526010.AI_PA_Trades.20260602.20260602.xml
+2026-06-12 16:56:28,028 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 16:57:45,314 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=77.3s api_calls=11 response=2978 chars
+2026-06-12 16:57:45,392 INFO gateway.platforms.base: [Discord] Sending response (2978 chars) to 1510545376346902538
+2026-06-12 17:01:12,413 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_6a9082326706_flex.1526010.AI_PA_Trades.20260603.20260603.xml
+2026-06-12 17:01:13,071 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 17:01:31,958 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=18.9s api_calls=5 response=1826 chars
+2026-06-12 17:01:31,982 INFO gateway.platforms.base: [Discord] Sending response (1826 chars) to 1510545376346902538
+2026-06-12 17:02:43,221 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_1c561845fc04_flex.1526010.AI_PA_Trades.20260604.20260604.xml
+2026-06-12 17:02:43,967 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 17:03:19,845 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=35.9s api_calls=10 response=3585 chars
+2026-06-12 17:03:19,863 INFO gateway.platforms.base: [Discord] Sending response (3585 chars) to 1510545376346902538
+2026-06-12 17:04:33,170 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_8a6cc33336bd_flex.1526010.AI_PA_Trades.20260605.20260605.xml
+2026-06-12 17:04:34,066 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 17:04:54,853 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=20.8s api_calls=5 response=2618 chars
+2026-06-12 17:04:54,873 INFO gateway.platforms.base: [Discord] Sending response (2618 chars) to 1510545376346902538
+2026-06-12 17:05:46,200 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_3e69046e2483_flex.1526010.AI_PA_Trades.20260608.20260608.xml
+2026-06-12 17:05:46,843 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 17:06:47,150 INFO hermes_plugins.discord_platform.adapter: Discord button resolved 1 approval(s) for session agent:main:discord:group:1510545376346902538:360061129784950786 (choice=always, user=SY Chong)
+2026-06-12 17:06:59,746 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=72.9s api_calls=13 response=3924 chars
+2026-06-12 17:06:59,760 INFO gateway.platforms.base: [Discord] Sending response (3924 chars) to 1510545376346902538
+2026-06-12 17:08:11,433 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_4aa27c9937de_flex.1526010.AI_PA_Trades.20260609.20260609.xml
+2026-06-12 17:08:12,243 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-12 17:08:42,420 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=30.2s api_calls=7 response=4103 chars
+2026-06-12 17:08:42,429 INFO gateway.platforms.base: [Discord] Sending response (4103 chars) to 1510545376346902538
+2026-06-12 18:11:50,197 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:discord:group:1510545376346902538:360061129784950786 (idle=3788s)
+2026-06-12 18:11:50,200 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-13 01:09:46,579 INFO gateway.run: Document cache cleanup: removed 2 stale file(s)
+2026-06-13 10:10:23,417 INFO gateway.run: Document cache cleanup: removed 1 stale file(s)
+2026-06-13 10:17:12,532 INFO hermes_plugins.discord_platform.adapter: [Discord] Cached user document: /Users/sychong/.hermes/cache/documents/doc_03f98f10d473_flex.1526010.AI_PA_Trades.20260612.20260612.xml
+2026-06-13 10:17:13,261 INFO gateway.run: inbound message: platform=discord user=SY Chong chat=1510545376346902538 msg='(The user sent a message with no text content)'
+2026-06-13 10:18:21,135 INFO gateway.run: response ready: platform=discord chat=1510545376346902538 time=67.9s api_calls=19 response=5038 chars
+2026-06-13 10:18:21,148 INFO gateway.platforms.base: [Discord] Sending response (5038 chars) to 1510545376346902538
+2026-06-13 11:18:40,411 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:discord:group:1510545376346902538:360061129784950786 (idle=3619s)
+2026-06-13 11:18:40,416 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-13 14:10:30,033 INFO gateway.run: Document cache cleanup: removed 3 stale file(s)
+2026-06-13 17:10:32,468 INFO gateway.run: Document cache cleanup: removed 8 stale file(s)

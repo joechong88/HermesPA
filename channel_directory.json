@@ -1,0 +1,164 @@
+{
+  "updated_at": "2026-06-13T21:30:42.450153",
+  "platforms": {
+    "discord": [
+      {
+        "id": "1053345127957016609",
+        "name": "general",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1307219427548463105",
+        "name": "otp-learning",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1314783610535940217",
+        "name": "options-journal",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1314786767941009442",
+        "name": "options-open-trade",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1358122809490014378",
+        "name": "magic-chess-go-go",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510167548845363220",
+        "name": "ai-pa",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510198626255896618",
+        "name": "pa-config",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545309238038588",
+        "name": "bridge",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545345778553015",
+        "name": "apex-live",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545376346902538",
+        "name": "kara-review",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545410651984023",
+        "name": "atlas-portfolio",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545437625553088",
+        "name": "vera-intel",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545463508471929",
+        "name": "lila-curator",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545493330100224",
+        "name": "alerts",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1510545513588457642",
+        "name": "memory-log",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1512124991276060692",
+        "name": "cellar-inventory",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1512125047483928687",
+        "name": "tasting-log",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1512125092736532540",
+        "name": "cellar-pulse",
+        "guild": "joechong's server",
+        "type": "channel"
+      },
+      {
+        "id": "1514662207106056405:1514662207106056405",
+        "name": "joechong's server / #kara-review / what can you do? / topic 1514662207106056405",
+        "type": "thread",
+        "thread_id": "1514662207106056405"
+      },
+      {
+        "id": "1514666759893029026:1514666759893029026",
+        "name": "joechong's server / #kara-review / how are you doing? / topic 1514666759893029026",
+        "type": "thread",
+        "thread_id": "1514666759893029026"
+      },
+      {
+        "id": "1514667084372508832:1514667084372508832",
+        "name": "joechong's server / #kara-review / here is June 10's trade file / topic 1514667084372508832",
+        "type": "thread",
+        "thread_id": "1514667084372508832"
+      },
+      {
+        "id": "1510545376346902538",
+        "name": "joechong's server / #kara-review",
+        "type": "group",
+        "thread_id": null
+      }
+    ],
+    "telegram": [],
+    "whatsapp": [],
+    "slack": [],
+    "signal": [],
+    "mattermost": [],
+    "matrix": [],
+    "homeassistant": [],
+    "email": [],
+    "sms": [],
+    "dingtalk": [],
+    "msgraph_webhook": [],
+    "feishu": [],
+    "wecom": [],
+    "wecom_callback": [],
+    "weixin": [],
+    "bluebubbles": [],
+    "qqbot": [],
+    "yuanbao": [],
+    "google_chat": [],
+    "irc": [],
+    "line": [],
+    "ntfy": [],
+    "photon": [],
+    "simplex": [],
+    "teams": []
+  }
+}
